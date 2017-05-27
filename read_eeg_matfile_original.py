@@ -7,8 +7,8 @@ import time
 import numpy as np
 from scipy import io
 from scipy.signal import butter, lfilter
-from scipy.linalg import eig
-import matplotlib.pyplot as plt
+#from scipy.linalg import eig
+#import matplotlib.pyplot as plt
 import theano
 import os
 
@@ -251,7 +251,8 @@ states_labels = states_labels[:, win*2:]
 
 # In[ ]:
 
-from sklearn.model_selection import GridSearchCV
+#from sklearn.model_selection import GridSearchCV
+from sklearn.grid_search import GridSearchCV
 from sklearn.linear_model import LogisticRegression #Lasso
 
 tuned_parameters = [{'C': [0.0005]}]
