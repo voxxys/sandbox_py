@@ -4,7 +4,7 @@
 # In[17]:
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = ""
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 # This notebook is a refactored version of a Multiscale Convolutional Network solution for NeuroHack at Yandex
