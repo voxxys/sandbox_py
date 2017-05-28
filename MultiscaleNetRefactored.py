@@ -22,9 +22,9 @@ from scipy.signal import resample
 
 # In[5]:
 
-train_path = "hackaton_data/train.h5"
-test_path = "hackaton_data/test.h5"
-model_dump_path = "hackaton_data/convnet-multiscale-true-01988"
+train_path = "./hackaton_data/train.h5"
+test_path = "./hackaton_data/test.h5"
+model_dump_path = "./hackaton_data/convnet-multiscale-true-01988"
 
 slice_len = 1125
 
